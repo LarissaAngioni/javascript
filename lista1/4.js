@@ -1,4 +1,4 @@
-let leia = require('readline-sync');
+const leia = require('readline-sync');
 
 let num1 = leia.questionFloat("Digite um numero: ", {limitMessage: 'Digite um numero float'});
 let num2 = leia.questionFloat("Digite um numero: ", {limitMessage: 'Digite um numero float'});

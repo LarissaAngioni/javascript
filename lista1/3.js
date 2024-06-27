@@ -1,4 +1,4 @@
-let leia = require('readline-sync');
+const leia = require('readline-sync');
 
 let salarioBruto = leia.questionFloat("Digite o salario bruto: R$", {limitMessage: 'Digite um numero float'});
 let adicionalNoturno = leia.questionFloat("Digite o adicional noturno: R$", {limitMessage: 'Digite um numero float'});
